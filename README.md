@@ -5,6 +5,9 @@ The tool is written in Python and requires Python 2.7 or Python 3.3+ but no addi
 
 For further information, see the [project Home Page](http://medialab.di.unipi.it/wiki/Wikipedia_Extractor) or the [Wiki](https://github.com/attardi/wikiextractor/wiki).
 
+# Leo's modifications
+In the original version of wikiextractor empty lines separating paragraphs are not preserved, which prevents from correct splitting into paragraphs sometimes. Leo slightly modified the code to keep these paragraph-separating lines.
+
 # Wikipedia Cirrus Extractor
 
 `cirrus-extractor.py` is a version of the script that performs extraction from a Wikipedia Cirrus dump.
